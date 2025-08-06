@@ -33,18 +33,24 @@ text-to-sql/
 ```
 git clone https://github.com/yourusername/text-to-sql.git
 cd text-to-sql
-Install dependencies:
+
+2. Install dependencies:
 
 pip install -r requirements.txt
-Set up the SQLite database:
+
+3. Set up the SQLite database:
 
 python sqlite.py
-Create a .env file and add your OpenAI API key:
+
+4. Create a .env file and add your OpenAI API key:
 
 OPENAI_API_KEY=your-api-key-here
-Running the App
+
+## Running the App
 streamlit run sql.py
-Example Questions
+
+## Example Questions
+
 How many entries of records are present?
 
 Tell me all the students studying in Data Science class?
@@ -53,7 +59,7 @@ List names and emails of students older than 22.
 
 How many students enrolled after February 1, 2023?
 
-Notes
+## Notes
 This project uses OpenAI's GPT-4 model for SQL generation.
 
 Ensure you have API credits/quota on OpenAI.
