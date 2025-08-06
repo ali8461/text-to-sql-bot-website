@@ -12,6 +12,8 @@ This project is a simple web-based SQL assistant that converts natural language 
 
 ## Project Structure
 
+```
+
 text-to-sql/
 │
 ├── .env # OpenAI API key
@@ -20,6 +22,8 @@ text-to-sql/
 ├── sqlite.py # Database setup script
 ├── test.db # SQLite database
 └── snippets/ # (Optional) Directory for code snippets
+
+```
 
 ## Prerequisites
 
@@ -33,21 +37,34 @@ text-to-sql/
 ```
 git clone https://github.com/yourusername/text-to-sql.git
 cd text-to-sql
+```
+
 
 2. Install dependencies:
+```
 
 pip install -r requirements.txt
 
-3. Set up the SQLite database:
+```
 
+3. Set up the SQLite database:
+```
 python sqlite.py
+```
+
 
 4. Create a .env file and add your OpenAI API key:
+```
 
 OPENAI_API_KEY=your-api-key-here
+```
+
 
 ## Running the App
+```
 streamlit run sql.py
+```
+
 
 ## Example Questions
 
